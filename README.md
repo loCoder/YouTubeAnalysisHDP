@@ -25,6 +25,7 @@ input - contains csv and json files used as input to MR code.
 	CSV file has 16 columns which has description of the video, while JSON file contains the category details for the specific region.
 	These have been obtained from kaggle, and have been scraped from YouTube Trending page.
 	Scraper Project: https://github.com/mitchelljy/Trending-YouTube-Scraper
+	Dataset used here: https://www.kaggle.com/datasnaek/youtube-new
 ___________________________________________________________________
 output - contains the 6 output folders, each for one java file in src.
 	subfolders: all - 10 files given as input, <region code> - region specific input only(IN - india).
